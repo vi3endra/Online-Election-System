@@ -1,0 +1,98 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.bgimage{
+	background-color: skyblue;
+	width: 100%;
+	height: 120vh;
+}
+.upper{
+	width: 100%;
+	height: 60px;
+	background-color:orange;
+}
+.logo{
+	width: 10%;
+	height: 60px;
+	display:inline-block;
+	float:left;
+}
+.heading{
+	width: 55%;
+	height: 60px;
+	display:inline-block;
+	margin-top:8px;
+	margin-left:10px;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 35px;
+	color:crimson;
+}
+.hlink{
+	width:34%;
+	height:60px;
+	float:right;
+	display:inline-block;
+	margin-top: 15px;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 22px;
+}
+.conte{
+	display:inline-block;
+	margin-top: 20px;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 45px;
+	margin-left: 50px;
+	color: #2aa22a;
+}
+.form{
+	z-index: 1;
+	max-width: 350px;
+	margin: 0 auto 100px;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #660035;
+	background: gray;
+}
+.form input{
+	outline: 2px;
+	background:white;
+	width:100%;
+	border:0;
+	margin:0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 20px;
+	border-radius: 15px;
+}
+.form textarea{
+	outline: 2px;
+	background:white;
+	width:100%;
+	border:0;
+	margin:0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 20px;
+	border-radius: 15px;
+}
+.form button{
+	outline: 2px;
+	background:#4CAF57;
+	width: 170px;
+	z-index: 1;
+	margin: 20px 85px 20px;
+	border: 0px;
+	color: #FFFFFF;
+	font-size: 42px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius:10px;
+}
+.form button:hover,.form button:active{
+	background: #43A047
+}

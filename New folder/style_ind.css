@@ -1,0 +1,85 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.bgimage{
+	background-image: url('flag.png');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 150vh;
+}
+.upper{
+	width: 100%;
+	height: 60px;
+	background-color:lightgray;
+}
+.logo{
+	width: 10%;
+	height: 60px;
+	display:inline-block;
+	float:left;
+}
+.heading{
+	width: 47%;
+	height: 40px;
+	padding-left: 10px;
+	padding-top: 20px;
+	display:inline-block;
+	font-family: courier;
+	font-weight: bold;
+	font-size: 33px;
+}
+.hlink{
+	width:34%;
+	height:60px;
+	float:right;
+	padding-left:25px;
+	display:inline-block;
+	margin-top: 23px;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 16px;
+}
+.contain1{
+	display:inline-block;
+	padding-left:15px;
+	margin-top: 25px;
+	font-family: courier;
+	font-size: 20px;
+}
+.contain2{
+	display:inline-block;
+	width:40%;
+	padding-left:15px;
+	margin-top: 25px;
+	font-family: courier;
+	font-size: 20px;
+}
+.contain3{
+	margin-top: 40px;
+	font-family: courier;
+	font-size: 20px;
+	margin-left:15px;
+}
+.earth{
+	display:inline-block;
+	width: 35%;
+	height:273px;
+	margin-top: 25px;	
+	float: right;
+}
+.slogan1{
+	display:inline-block;
+	width:400px;
+	padding-left:15px;
+	margin-top:20px;
+	font-size: 20px;
+	background-color:red;
+}
+.slogan2{
+	font-size:22px;
+	margin-top:20px;
+	color:white;
+	display: inline-block;
+	background-color: green;
+}
